@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<main>
+    <div class="text-danger" id="alertText">Please click print text button to view text when page loads.</div>
+    <div class="m-3 fs-1" id="text"></div>
+    <div class="d-flex gap-2">
+        @* Place a button (PRINT TEXT) on the web page & on the click of the button “Hello World” should be displayed on a *@
+        <div class="btn btn-lg btn-outline-dark p-2" id="print_text">PRINT TEXT</div>
+
+        @* Place another button (BOLD) on the web page & on the click of the button, the displayed string should be displayed in Bold *@
+        <div class="btn btn-lg btn-outline-dark p-2" id="bold">BOLD</div>
+
+        @* Place another button (ITALIC) on the web page & on the click of the button, the displayed string should be displayed in Italic *@
+        <div class="btn btn-lg btn-outline-dark p-2" id="italic">ITALIC</div>
+
+        @* Place another button (UNDERLINE) on the web page & on the click of the button, the displayed string should be displayed in Underline Style*@
+        <div class="btn btn-lg btn-outline-dark p-2" id="underLine">UNDERLINE</div>
+
+        @* Place another button (RESET) on the web page & on the click of the button, the displayed string should be displayed in the normal default style*@
+        <div class="btn btn-lg btn-outline-dark p-2" id="reset">RESET</div>
+    </div>
+</main>
